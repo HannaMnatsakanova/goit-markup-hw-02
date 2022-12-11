@@ -14,7 +14,7 @@
 --filter-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.body{
+body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.71;
@@ -46,7 +46,7 @@
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-color);
     list-style-type: none;
@@ -68,13 +68,13 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-color);   
 }
-.contact-link{
+.header-contact-link{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 .link:hover,
 .link:focus{
@@ -94,7 +94,7 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;  
+    line-height: 4.28;  
 }
 .button{
     background-color: var(--accent-color);
@@ -104,13 +104,17 @@
     letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2.14;
     color: var(--secondary-accent-color);
 }
 .button:hover,
 .button:focus{
     background-color: var(--accent-hero-btn-bg-color);
     cursor: pointer;
+}
+.features{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
 }
 .features-list{
     font-size: 14px;
@@ -122,7 +126,7 @@
 }
 .features-info{
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     text-transform: none;
@@ -130,7 +134,7 @@
 .occupation-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3;
     letter-spacing: 0.03em;
     color: var(--primary-color);
 }
@@ -140,7 +144,7 @@
 .team{
     background-color: var(--team-bg-color);
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3;
     letter-spacing: 0.03em;
     color: var(--primary-color);
 }
@@ -149,14 +153,17 @@
 }
 .name{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.35;
     letter-spacing: 0.03em;
     color: var(--primary-color);
+}
+.team-info{
+    background-color: var(--secondary-accent-color) ;
 }
 .proffesion{
     color: var(--secondary-color);
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.35;
     letter-spacing: 0.03em;
 }
 .footer{
@@ -166,7 +173,7 @@
     color: var(--secondary-accent-color);
     font-family: 'Raleway',sans-serif;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 2.21;
     letter-spacing: 0.03em;
 }
 .footer-adress{
@@ -176,7 +183,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em; 
 }
 .contact-link{
@@ -212,8 +219,9 @@ color: var(--adress-contact-color);
     color: var(--filter-btn);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.85;
     letter-spacing: 0.03em;
+    font-family: inherit;
 }
 .filter-btn:hover,
 .filter-btn:focus{
@@ -232,13 +240,13 @@ color: var(--adress-contact-color);
     color: var(--primary-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2.57;
     letter-spacing: 0.06em;
 }
 .descr{
     color: var(--secondary-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2.14;
     letter-spacing: 0.03em;
 }
